@@ -407,6 +407,18 @@ a {
 	body {-webkit-text-size-adjust: 100%;}
 }
 
+.career{
+	font-size: 30px;
+}
+
+.career a {
+	font-size: 26px;
+}
+
+.smallcaps2 {
+	font-size: 26px;
+}
+
 @media only screen and (orientation : landscape) {
     body {
 
@@ -422,6 +434,11 @@ a {
 
     .career {
         flex-direction: row-reverse;
+
     }
+
+		.career p{
+			max-width: 900px;
+		}
 
 }
