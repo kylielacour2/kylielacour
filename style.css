@@ -408,15 +408,15 @@ a {
 }
 
 .career{
-	font-size: 30px;
+	font-size: 25px;
 }
 
 .career a {
-	font-size: 26px;
+	font-size: 21px;
 }
 
 .smallcaps2 {
-	font-size: 26px;
+	font-size: 21px;
 }
 
 @media only screen and (orientation : landscape) {
