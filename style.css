@@ -57,30 +57,6 @@ table {
 }
 
 
-/* EMOJI */
-
-.em {
-    height:32px;
-    width:32px;
-    background-position:center;
-    background-repeat:no-repeat;
-    background-size:contain;
-    display:inline-block;
-    vertical-align:middle;
-    transform: rotate(20deg);
-}
-.em-full_moon {
-    background-image:url("emoji/full_moon.png")
-}
-.em-sunny {
-    background-image:url("emoji/sunny.png");
-    -webkit-animation: rotating 4s linear infinite;
-    -moz-animation: rotating 4s linear infinite;
-    -ms-animation: rotating 4s linear infinite;
-    -o-animation: rotating 4s linear infinite;
-    animation: rotating 4s linear infinite;
-}
-
 
 /* GENERAL */
 
@@ -197,14 +173,6 @@ a {
     justify-content: center;
 }
 
-.quarter {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    flex: 1;
-}
-
 
 /* Intro */
 
@@ -232,7 +200,7 @@ a {
 
 .arrow {
     margin-top: 1.5em;
-    margin-right: 1.5em;
+    margin-right: 2.5em;
     -webkit-animation:bounce 2s infinite;
     -moz-animation:bounce 2s infinite;
     -o-animation:bounce 2s infinite;
