@@ -225,6 +225,7 @@ a {
 }
 .grid {
   /* Grid Fallback */
+	margin: 10%;
   display: flex;
   flex-wrap: wrap;
 
