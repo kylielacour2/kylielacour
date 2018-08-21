@@ -216,7 +216,7 @@ a {
 
 .work {
     background-color: #f7f7f7;
-    
+    display: flex;
     align-content: center;
     justify-content: center;
     padding: 10vw;
@@ -335,7 +335,7 @@ a {
 @media only screen and (min-width : 320px) and (max-width : 560px) {
 	body {-webkit-text-size-adjust: 100%;}
 }
-
+/*
 .career{
 	font-size: 25px;
 }
@@ -346,7 +346,7 @@ a {
 
 .smallcaps2 {
 	font-size: 21px;
-}
+}*/
 
 @media only screen and (orientation : landscape) {
     body {
