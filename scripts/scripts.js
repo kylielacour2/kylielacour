@@ -45,8 +45,4 @@
         }, 400);
     })
 
-    $('.career').textfill({
-  maxFontPixels: 200
-});
-
 });

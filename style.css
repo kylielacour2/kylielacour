@@ -341,40 +341,14 @@ a {
 
 @media only screen and (min-width : 320px) and (max-width : 560px) {
 	body {-webkit-text-size-adjust: 100%;}
+	.career {font-size: 25px;}
+	.career a {font-size: 21px;}
+	.smallcaps2 {font-size: 21px;}
 }
-/*
-.career{
-	font-size: 25px;
-}
-
-.career a {
-	font-size: 21px;
-}
-
-.smallcaps2 {
-	font-size: 21px;
-}*/
 
 @media only screen and (orientation : landscape) {
-    body {
-
-    }
-
-    .work {
-    }
-
-    .piece {
-        width: 50%;
-        padding: 0 0 50% 0;
-    }
-
-    .career {
-        flex-direction: row-reverse;
-
-    }
-
-		.career p{
-			max-width: 900px;
-		}
-
+    body {}
+    .work {}
+    .career {flex-direction: row-reverse;}
+		.career p {max-width: 900px;}
 }
