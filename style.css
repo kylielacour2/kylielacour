@@ -355,9 +355,11 @@ a {
 
 @media only screen and (min-width : 320px) and (max-width : 560px) {
 	body {-webkit-text-size-adjust: 100%;}
-	.career {font-size: 25px;}
-	.career a {font-size: 21px;}
-	.smallcaps2 {font-size: 21px;}
+	.career {font-size: 23px;
+	color: #a08500;}
+	.career a {font-size: 18px;
+	color: red;}
+	.smallcaps2 {font-size: 18px;}
 }
 
 @media only screen and (orientation : landscape) {
