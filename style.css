@@ -182,6 +182,7 @@ a {
 
 .bio {
     color: #000;
+		max-width: 400px;
 }
 
 .name {
