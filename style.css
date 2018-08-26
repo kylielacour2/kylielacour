@@ -293,7 +293,7 @@ a {
 
 .fancybox-bg {
 	background-color: #fff!important;
-	opacity: .7!important;
+	opacity: 0!important;
 }
 
 .fancybox-toolbar {
@@ -302,6 +302,21 @@ a {
 
 	a:focus {
 		outline: none;
+}
+
+.fancybox-navigation .fancybox-button {
+	display: none;
+}
+
+.fancybox-container {
+	position: inherit;
+}
+
+.fancybox-outer,
+.fancybox-inner,
+.fancybox-bg,
+.fancybox-stage {
+	position: inherit;
 }
 
 /* Career */
