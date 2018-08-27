@@ -45,20 +45,4 @@
         }, 400);
     })
 
-    $('.fancybox').fancybox({
-                helpers: {
-                    overlay: {
-                        locked: false
-                    }
-                },
-                beforeShow:function(){
-                    $('html').css('overflowX', 'visible');
-                    $('body').css('overflowY', 'hidden');
-                },
-                afterClose:function(){
-                    $('html').css('overflowX', 'hidden');
-                    $('body').css('overflowY', 'visible');
-                }
-            });
-
 });
