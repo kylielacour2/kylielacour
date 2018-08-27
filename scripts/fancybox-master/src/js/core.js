@@ -12,6 +12,8 @@
     return;
   }
 
+
+
   // Check if fancyBox is already initialized
   // ========================================
 
@@ -541,6 +543,8 @@
           $("body").addClass("compensate-for-scrollbar");
         }
       }
+
+
 
       // Build html markup and set references
       // ====================================
@@ -3062,3 +3066,19 @@
     });
   });
 })(window, document, window.jQuery || jQuery);
+
+$('.fancybox').fancybox({
+            helpers: {
+                overlay: {
+                    locked: false
+                }
+            },
+            beforeShow:function(){
+                $('html').css('overflowX', 'visible');
+                $('body').css('overflowY', 'hidden');
+            },
+            afterClose:function(){ 
+                $('html').css('overflowX', 'hidden');
+                $('body').css('overflowY', 'visible');
+            }
+        });
