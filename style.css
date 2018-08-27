@@ -308,18 +308,9 @@ a {
 	display: none;
 }
 
-.fancybox-container {
-	position: inherit;
+html.fancybox-lock {
+    overflow: visible !important;
 }
-
-.fancybox-outer,
-.fancybox-inner,
-.fancybox-bg,
-.fancybox-stage {
-	position: inherit;
-}
-
-
 
 /* Career */
 
