@@ -293,7 +293,7 @@ a {
 
 .fancybox-bg {
 	background-color: #fff!important;
-	opacity: 1!important;
+	opacity: !important;
 }
 
 .fancybox-toolbar {
@@ -314,33 +314,38 @@ html.fancybox-lock {
 
 /* Career */
 
+
+
 .career {
 	display: block;
 	background-color: #ffe41c;
-	padding: 10vw;
+}
+
+.flexFont {
 	color: white;
 	font-weight: 500;
 	font-size: 40px;
 	line-height: 1.4em;
+	margin: 10vw;
 }
 
-.career a {
+.flexFont a {
 	font-family: 'Roboto Mono', sans-serif;
-	font-size: 31px;
+	font-size: 80%;
 	font-weight: 400;
 }
 
-.career a:hover {
+.flexFont a:hover {
 	color: red;
 }
 .smallcaps {
-	font-size: 26px;
+	font-size: 90%;
 	letter-spacing: .01em;
 	font-weight: 300;
 }
 
 .smallcaps2 {
-	font-size: 32px;
+	font-size: 80%;
 	letter-spacing: .01em;
 	font-weight: 600;
 }
