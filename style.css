@@ -324,14 +324,13 @@ html.fancybox-lock {
 .flexFont {
 	color: white;
 	font-weight: 500;
-	font-size: 45px;
 	line-height: 1.4em;
 	margin: 8vw;
 }
 
 .flexFont a {
-	font-family: 'Roboto Mono', sans-serif;
 	font-size: 80%;
+	font-family: 'Roboto Mono', sans-serif;
 	font-weight: 400;
 }
 
@@ -339,7 +338,6 @@ html.fancybox-lock {
 	color: red;
 }
 .smallcaps {
-	font-size: 90%;
 	letter-spacing: .01em;
 	font-weight: 300;
 }
@@ -377,5 +375,5 @@ html.fancybox-lock {
     body {}
     .work {}
     .career {flex-direction: row-reverse;}
-		.career p {max-width: 900px;}
+		.career p {max-width: 85%;}
 }
