@@ -195,6 +195,30 @@ a {
 		font-weight: 400;
 }
 
+.name2 {
+	color: #000;
+	border-bottom: 2px solid #ffe41c;
+	font-family: 'Roboto Mono', sans-serif;
+	font-size: 24px;
+	font-weight: 400;
+}
+
+a:hover {
+	cursor: url('cursor2.png'), auto;
+}
+
+img:hover {
+	cursor: url('cursor2.png'), auto;
+}
+
+.name:hover {
+	cursor: url('cursor2.png'), auto;
+}
+
+.name2:hover {
+	cursor: url('cursor2.png'), auto;
+}
+
 .name.animated{
   position: relative;
   top: 2px;
@@ -346,6 +370,7 @@ html.fancybox-lock {
 
 .career a:hover {
 	color: red;
+	cursor: url('cursor2.png'), auto;
 }
 .smallcaps {
 	font-size: 26px;
