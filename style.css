@@ -195,15 +195,15 @@ a {
 		font-weight: 400;
 }
 
-.name:hover{
+.name.animated{
   position: relative;
-  top: 0px;
-  animation: bounce .2s ease infinite alternate;
+  top: 2px;
+  animation: bounce .2s ease 3 alternate;
 }
 
 @keyframes bounce {
   100% {
-    top: -10px;
+    top: -2px;
   }
 }
 

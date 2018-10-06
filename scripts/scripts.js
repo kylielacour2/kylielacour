@@ -45,5 +45,14 @@
         }, 400);
     })
 
+    $(".name").css("animation-iteration-count", "1");
+    $(".name").bind("webkitAnimationEnd mozAnimationEnd animationEnd", function(){
+      $(this).removeClass("animated")
+    })
+    $(".name").hover(function(){
+      $(".name").css("animation-iteration-count", "infinite"); 
+      $(this).addClass("animated");
+    })
+
 
 });
